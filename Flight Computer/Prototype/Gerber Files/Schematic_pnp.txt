@@ -1,0 +1,20 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=Schematic
+*Date=19:31:20
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;16.3433;-69.626;0;Bottom;Part1
+2;;;91.4333;-12.4547;0;Bottom;Part2
+3;;;49.4794;-17.5645;90;Bottom;M1
+4;;bc9vpc;72.6436;-76.2387;0;Bottom;BAT1
+5;;;66.3844;-35.5255;-90;Bottom;microSD1
