@@ -24,9 +24,9 @@
   - 10cm Parachute
 
 ## Other Parameters
-  - Stability: >0.5 cal
-  - Burn Time: >1 sec
-  - Total Impulse: 10 <  > 20
+  - Stability > 0.5 cal
+  - Burn Time > 1 sec
+  - 10 < Total Impulse > 20
 
 ## Target Performance
   Targeted performance numbers are as follows:
