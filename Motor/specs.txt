@@ -1,0 +1,7 @@
+Class: D
+Ejection Charge: None
+Total Impulse: 20 newton-seconds
+Propellant: Ammonium Perchlorate + Aluminum
+Chemical Reaction: 10 Al + 6 NH4CLO4 -> 4 AL2O3 + 2 AlCl3 + 12 H2O + 3 N2.
+Stoichometric Ratio (AL:AP): 10:6
+Mass ratio (AL:AP): 1:2.61200815862
