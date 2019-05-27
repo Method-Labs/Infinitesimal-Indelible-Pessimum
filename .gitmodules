@@ -1,0 +1,6 @@
+[submodule "libraries/Adafruit_Sensor"]
+	path = libraries/Adafruit_Sensor
+	url = git://github.com/adafruit/Adafruit_Sensor
+[submodule "libraries/GY-91"]
+	path = libraries/GY-91
+	url = git://github.com/ricardozago/GY91-MPU9250-BMP280
