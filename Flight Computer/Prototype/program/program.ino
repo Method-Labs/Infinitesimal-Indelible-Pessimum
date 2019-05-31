@@ -1,3 +1,4 @@
+#include <LiquidCrystal.h>
 #include <MPU9250.h>
 #include <Adafruit_BMP280.h>
 #include <Adafruit_Sensor.h>
