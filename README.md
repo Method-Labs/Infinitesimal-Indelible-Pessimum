@@ -15,7 +15,7 @@
     * Cylindrical Block Grain Geometry
     * Built-In Nozzle
   - Flight computer
-    * ATTiny20 MCU
+    * AtMega 328PB MCU
     * BMP280 Barometer
     * MPU6050 IMU
     * MicroSD Card Reader
