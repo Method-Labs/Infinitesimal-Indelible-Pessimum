@@ -2,6 +2,8 @@
 #include <MPU9250.h>
 #include <Adafruit_BMP280.h>
 #include <Adafruit_Sensor.h>
+#include <countdown.h>
+#include <calibrator.h>
 
 /*
  * This is the runner program, it takes all the programs and classes
@@ -15,10 +17,25 @@
  * Date Created: 31/05/2019
 */
 
-void setup(){
+//Define Sensor Objects
+MPU9250 IMU;
+Adafruit_BMP280 BPU;
 
+calibrator calibrate;
+countdown cd;
+
+void setup(){
+    //Construct Sensor Objects
+    IMU = new MPU9250();
+    BPU = new Adafruit_BMP280();
+
+    //Construct Cailbrator Object
+    calibrate = new calibrator(BPU, IMU);
+
+    //Construct one minute Countdown Object
+    cd = new countdown(60);
 }
 
 void loop(){
-
+    
 }

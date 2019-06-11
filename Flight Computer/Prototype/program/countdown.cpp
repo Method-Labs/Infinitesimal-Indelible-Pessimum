@@ -11,9 +11,9 @@ countdown::countdown(int s){
         lcd.clear(); //Clear the LCD
     }
     ignite();
-    lcd.write("Ignition!");
 }
 
 void countdown::ignite(int port){
     digitalWrite(port, HIGH);
+    lcd.write("Ignition!");
 }
