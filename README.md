@@ -10,18 +10,18 @@
 ## Specifications
   The current specifications are as follows:
   - D Class Rocket Motor
-    * 7 x 2.5cm
+    * 7 x 2.2cm
     * Ammonium Perchlorate and Aluminum Powder Propellant
     * Cylindrical Block Grain Geometry
     * Built-In Nozzle
   - Flight computer
-    * AtMega 328PB MCU
+    * STM32F103C8T7 MCU
     * BMP280 Barometer
     * MPU6050 IMU
-    * MicroSD Card Reader
-    * 2 Pyro Channels
+    * W25Q32FV Memory Chip
+    * 1 Pyro Channel
   - Construction Paper Body
-  - 10cm Parachute
+  - 20cm Parachute
 
 ## Other Parameters
   - Stability > 0.5
