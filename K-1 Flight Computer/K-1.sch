@@ -11163,6 +11163,499 @@ ARM 32-BIT 72Hz 64KB MCU</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-LED" urn="urn:adsk.eagle:library:529">
+<description>&lt;h3&gt;SparkFun LEDs&lt;/h3&gt;
+This library contains discrete LEDs for illumination or indication, but no displays.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="LED-RGB-THRU" urn="urn:adsk.eagle:footprint:39319/1" library_version="1">
+<description>&lt;h3&gt;LED - RGB PTH&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 4&lt;/li&gt;
+&lt;li&gt;Area:5 x 5.8 mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Datasheet Referenced: &lt;a href="https://www.sparkfun.com/datasheets/Components/YSL-R596CR3G4B5C-C10.pdf"&gt;YSL-R596CR3G4B5C&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;LED-RGB-CA&lt;/li&gt;
+&lt;li&gt;LED-RGB-CC&lt;/li&gt;</description>
+<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="51" curve="-316.397181"/>
+<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="22"/>
+<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="21" curve="-316.397181"/>
+<pad name="2" x="0.635" y="0" drill="0.762" diameter="0.889" shape="long" rot="R90"/>
+<pad name="1" x="1.905" y="0" drill="0.762" diameter="0.889" shape="long" rot="R90"/>
+<pad name="3" x="-0.635" y="0" drill="0.762" diameter="0.889" shape="long" rot="R90"/>
+<pad name="4" x="-1.905" y="0" drill="0.762" diameter="0.889" shape="long" rot="R90"/>
+<text x="0" y="2.8575" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.8575" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+<package name="P-LCC-4-3" urn="urn:adsk.eagle:footprint:39320/1" library_version="1">
+<description>&lt;h3&gt;LED P-LCC-4-3 - SMT&lt;/h3&gt;
+
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 4&lt;/li&gt;
+&lt;li&gt;Pin pitch: 0.7mm &lt;/li&gt;
+&lt;li&gt;Size: 3.2*2.8*1.9mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Datasheet referenced for footprint:&lt;/b&gt; &lt;a href="http://www.fairchip.com/pdf/Everlight/67-23-R6GHBHC-B01-2T.pdf"&gt;R6GHBHC&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device:
+&lt;ul&gt;&lt;li&gt;0.13_RGB_LED&lt;/li&gt;</description>
+<wire x1="1.75" y1="-1.4" x2="1.75" y2="1.4" width="0.2032" layer="51"/>
+<wire x1="1.75" y1="1.4" x2="-1.75" y2="1.4" width="0.2032" layer="51"/>
+<wire x1="-1.75" y1="1.4" x2="-1.75" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-1.75" y1="-1.4" x2="1.75" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-0.508" y1="-1.4" x2="0.508" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-1.75" y1="-0.1016" x2="-1.75" y2="0.1016" width="0.2032" layer="21"/>
+<wire x1="-0.508" y1="1.4" x2="0.508" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="1.75" y1="-0.1016" x2="1.75" y2="0.1016" width="0.2032" layer="21"/>
+<wire x1="-1.1662" y1="1.3598" x2="-1.7162" y2="0.8098" width="0.2032" layer="51"/>
+<circle x="0" y="0" radius="1.1" width="0.2032" layer="51"/>
+<circle x="0" y="0" radius="0.55764375" width="0.127" layer="21"/>
+<circle x="-1.905" y="1.74625" radius="0.0508" width="0.3048" layer="21"/>
+<smd name="2" x="-1.7" y="-0.725" dx="0.75" dy="1.8" layer="1" rot="R90"/>
+<smd name="1" x="-1.7" y="0.725" dx="0.75" dy="1.8" layer="1" rot="R90"/>
+<smd name="4" x="1.7" y="0.725" dx="0.75" dy="1.8" layer="1" rot="R90"/>
+<smd name="3" x="1.7" y="-0.725" dx="0.75" dy="1.8" layer="1" rot="R90"/>
+<text x="0" y="1.65995" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.5695" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<polygon width="0.127" layer="21">
+<vertex x="0" y="0"/>
+<vertex x="0" y="0.5588" curve="90"/>
+<vertex x="-0.5588" y="0"/>
+</polygon>
+</package>
+<package name="LED-TRICOLOR-SMD" urn="urn:adsk.eagle:footprint:39321/1" library_version="1">
+<description>&lt;h3&gt;Tri-Color SMD&lt;/h3&gt;
+&lt;p&gt;&lt;b&gt;Specifications:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Pin count: 4&lt;/li&gt;
+&lt;li&gt;Pin pitch: 2.0mm&lt;/li&gt;
+&lt;li&gt;Area: 2.6mm x 3.2mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Datasheet referenced for footprint:&lt;/b&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/DJS-BRGBC-TR8.pdf"&gt; DJS-BRGBC-TR8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Example device(s):&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;TRI-COLOR LED&lt;/p&gt;</description>
+<wire x1="-1.3" y1="-1.3" x2="-1.3" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="-1.3" y1="-1.6" x2="1.3" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="1.3" y1="-1.6" x2="1.3" y2="-1.3" width="0.2032" layer="21"/>
+<wire x1="-1.3" y1="1.3" x2="-1.3" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="-1.3" y1="1.6" x2="1.3" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="1.3" y1="1.6" x2="1.3" y2="1.3" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="0" x2="1.8" y2="0" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="0" x2="1.8" y2="0" width="0.2032" layer="51"/>
+<smd name="G" x="-1.5" y="-0.7" dx="0.7" dy="1.2" layer="1" rot="R90"/>
+<smd name="B" x="-1.5" y="0.7" dx="0.7" dy="1.2" layer="1" rot="R90"/>
+<smd name="R" x="1.5" y="-0.7" dx="0.7" dy="1.2" layer="1" rot="R90"/>
+<smd name="A" x="1.5" y="0.7" dx="0.7" dy="1.2" layer="1" rot="R90"/>
+<text x="0" y="1.778" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.905" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="LED-RGB-THRU" urn="urn:adsk.eagle:package:39368/1" type="box" library_version="1">
+<description>LED - RGB PTH
+Specifications:
+Pin count: 4
+Area:5 x 5.8 mm
+
+Datasheet Referenced: YSL-R596CR3G4B5C
+Example device(s):
+LED-RGB-CA
+LED-RGB-CC</description>
+<packageinstances>
+<packageinstance name="LED-RGB-THRU"/>
+</packageinstances>
+</package3d>
+<package3d name="P-LCC-4-3" urn="urn:adsk.eagle:package:39363/1" type="box" library_version="1">
+<description>LED P-LCC-4-3 - SMT
+
+Specifications:
+Pin count: 4
+Pin pitch: 0.7mm 
+Size: 3.2*2.8*1.9mm
+
+Datasheet referenced for footprint: R6GHBHC
+Example device:
+0.13_RGB_LED</description>
+<packageinstances>
+<packageinstance name="P-LCC-4-3"/>
+</packageinstances>
+</package3d>
+<package3d name="LED-TRICOLOR-SMD" urn="urn:adsk.eagle:package:39364/1" type="box" library_version="1">
+<description>Tri-Color SMD
+Specifications:
+Pin count: 4
+Pin pitch: 2.0mm
+Area: 2.6mm x 3.2mm
+
+Datasheet referenced for footprint: DJS-BRGBC-TR8
+Example device(s):
+
+TRI-COLOR LED</description>
+<packageinstances>
+<packageinstance name="LED-TRICOLOR-SMD"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="LED-RGB-CA" urn="urn:adsk.eagle:symbol:39318/1" library_version="1">
+<description>&lt;h3&gt;RGB LED - Common Anode&lt;/h3&gt;
+&lt;p&gt;4 pin Common Anode RGB LED&lt;/p&gt;</description>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.81" y2="0" width="0.254" layer="94"/>
+<text x="-7.62" y="5.3975" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="-5.3975" size="1.778" layer="95" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="GRN" x="-10.16" y="-2.54" visible="pin" length="short"/>
+<pin name="BLU" x="-10.16" y="0" visible="pin" length="short"/>
+<pin name="A" x="12.7" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="RED" x="-10.16" y="2.54" visible="pin" length="short"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LED-RGB-CA" urn="urn:adsk.eagle:component:39396/1" prefix="D" uservalue="yes" library_version="1">
+<description>&lt;h3&gt;LED-RGB Diffused Common Anode&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;li&gt;&lt;b&gt;Packages:&lt;/b&gt;&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt; LED RGB-THRU&lt;/li&gt;
+&lt;li&gt; P-LCC-4-3&lt;/li&gt;
+&lt;li&gt;LED-TRICOLOR-SMD&lt;/li&gt;
+&lt;ul&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”[https://www.sparkfun.com/products/10821]”&gt;RGB Diffused Common Anode- Diffuse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”[https://www.sparkfun.com/products/10820]”&gt;RGB Diffused Common Anode - Clear&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”[https://www.sparkfun.com/products/13614]”&gt;Qduino Mini&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/7844”&gt;Triple Output LED RGB - SMD&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED-RGB-CA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DIFFUSE" package="LED-RGB-THRU">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="BLU" pad="4"/>
+<connect gate="G$1" pin="GRN" pad="3"/>
+<connect gate="G$1" pin="RED" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39368/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-10632"/>
+<attribute name="VALUE" value="DIFFUSE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CLEAR" package="LED-RGB-THRU">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="BLU" pad="4"/>
+<connect gate="G$1" pin="GRN" pad="3"/>
+<connect gate="G$1" pin="RED" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39368/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-10631"/>
+<attribute name="VALUE" value="CLEAR" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PLCC" package="P-LCC-4-3">
+<connects>
+<connect gate="G$1" pin="A" pad="4"/>
+<connect gate="G$1" pin="BLU" pad="3"/>
+<connect gate="G$1" pin="GRN" pad="2"/>
+<connect gate="G$1" pin="RED" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39363/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-12986" constant="no"/>
+<attribute name="VALUE" value="RGB" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SMD" package="LED-TRICOLOR-SMD">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="BLU" pad="B"/>
+<connect gate="G$1" pin="GRN" pad="G"/>
+<connect gate="G$1" pin="RED" pad="R"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39364/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-08324" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SparkFun-IC-Memory" urn="urn:adsk.eagle:library:524">
+<description>&lt;h3&gt;SparkFun Memory ICs&lt;/h3&gt;
+This library contains memory ICs.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="WSON8-6X5MM" urn="urn:adsk.eagle:footprint:38837/1" library_version="1">
+<wire x1="-2.5" y1="3" x2="-2.5" y2="-3" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-3" x2="2.5" y2="-3" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-3" x2="2.5" y2="3" width="0.127" layer="51"/>
+<wire x1="2.5" y1="3" x2="-2.5" y2="3" width="0.127" layer="51"/>
+<wire x1="-2.627" y1="3.127" x2="-2.627" y2="-2.873" width="0.2032" layer="21"/>
+<wire x1="2.627" y1="-3.127" x2="2.627" y2="3.127" width="0.2032" layer="21"/>
+<wire x1="-2.627" y1="-2.873" x2="-2.326" y2="-3.127" width="0.2032" layer="21"/>
+<wire x1="2.326" y1="-3.127" x2="2.627" y2="-3.127" width="0.2032" layer="21"/>
+<wire x1="2.627" y1="3.127" x2="2.326" y2="3.127" width="0.2032" layer="21"/>
+<wire x1="-2.326" y1="3.127" x2="-2.627" y2="3.127" width="0.2032" layer="21"/>
+<polygon width="0" layer="51">
+<vertex x="-0.435" y="-3"/>
+<vertex x="-0.835" y="-3"/>
+<vertex x="-0.835" y="-2.53124375" curve="-90"/>
+<vertex x="-0.70375625" y="-2.4"/>
+<vertex x="-0.554265625" y="-2.4" curve="-90"/>
+<vertex x="-0.435" y="-2.519265625"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="0.835" y="-3"/>
+<vertex x="0.435" y="-3"/>
+<vertex x="0.435" y="-2.53124375" curve="-90"/>
+<vertex x="0.56624375" y="-2.4"/>
+<vertex x="0.715734375" y="-2.4" curve="-90"/>
+<vertex x="0.835" y="-2.519265625"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-1.705" y="-3"/>
+<vertex x="-2.105" y="-3"/>
+<vertex x="-2.105" y="-2.53124375" curve="-90"/>
+<vertex x="-1.97375625" y="-2.4"/>
+<vertex x="-1.824265625" y="-2.4" curve="-90"/>
+<vertex x="-1.705" y="-2.519265625"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="2.105" y="-3"/>
+<vertex x="1.705" y="-3"/>
+<vertex x="1.705" y="-2.53124375" curve="-90"/>
+<vertex x="1.83624375" y="-2.4"/>
+<vertex x="1.985734375" y="-2.4" curve="-90"/>
+<vertex x="2.105" y="-2.519265625"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="0.435" y="3"/>
+<vertex x="0.835" y="3"/>
+<vertex x="0.835" y="2.53124375" curve="-90"/>
+<vertex x="0.70375625" y="2.4"/>
+<vertex x="0.554265625" y="2.4" curve="-90"/>
+<vertex x="0.435" y="2.519265625"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-0.835" y="3"/>
+<vertex x="-0.435" y="3"/>
+<vertex x="-0.435" y="2.53124375" curve="-90"/>
+<vertex x="-0.56624375" y="2.4"/>
+<vertex x="-0.715734375" y="2.4" curve="-90"/>
+<vertex x="-0.835" y="2.519265625"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="1.705" y="3"/>
+<vertex x="2.105" y="3"/>
+<vertex x="2.105" y="2.53124375" curve="-90"/>
+<vertex x="1.97375625" y="2.4"/>
+<vertex x="1.824265625" y="2.4" curve="-90"/>
+<vertex x="1.705" y="2.519265625"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-2.105" y="3"/>
+<vertex x="-1.705" y="3"/>
+<vertex x="-1.705" y="2.53124375" curve="-90"/>
+<vertex x="-1.83624375" y="2.4"/>
+<vertex x="-1.985734375" y="2.4" curve="-90"/>
+<vertex x="-2.105" y="2.519265625"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="2.15" y="-1.7"/>
+<vertex x="-1.547921875" y="-1.7"/>
+<vertex x="-2.15" y="-1.097921875"/>
+<vertex x="-2.15" y="1.7"/>
+<vertex x="2.15" y="1.7"/>
+</polygon>
+<smd name="1" x="-1.905" y="-3" dx="1.4" dy="0.5" layer="1" rot="R90"/>
+<smd name="2" x="-0.635" y="-3" dx="1.4" dy="0.5" layer="1" rot="R90"/>
+<smd name="3" x="0.635" y="-3" dx="1.4" dy="0.5" layer="1" rot="R90"/>
+<smd name="4" x="1.905" y="-3" dx="1.4" dy="0.5" layer="1" rot="R90"/>
+<smd name="5" x="1.905" y="3" dx="1.4" dy="0.5" layer="1" rot="R270"/>
+<smd name="6" x="0.635" y="3" dx="1.4" dy="0.5" layer="1" rot="R270"/>
+<smd name="7" x="-0.635" y="3" dx="1.4" dy="0.5" layer="1" rot="R270"/>
+<smd name="8" x="-1.905" y="3" dx="1.4" dy="0.5" layer="1" rot="R270"/>
+<smd name="EP" x="0" y="0" dx="3.4" dy="4.3" layer="1" rot="R90"/>
+<circle x="-2.881" y="-3.381" radius="0.381" width="0" layer="21"/>
+</package>
+<package name="SOIC-8" urn="urn:adsk.eagle:footprint:38838/1" library_version="1">
+<description>8-Pin SOIC 208-mil</description>
+<circle x="-3.194" y="-2.051" radius="0.3" width="0" layer="21"/>
+<wire x1="-2.64" y1="-2.64" x2="2.64" y2="-2.64" width="0.1524" layer="51"/>
+<wire x1="2.767" y1="-2.767" x2="2.767" y2="2.767" width="0.2032" layer="21"/>
+<wire x1="2.64" y1="2.64" x2="-2.64" y2="2.64" width="0.1524" layer="51"/>
+<wire x1="-2.767" y1="2.767" x2="-2.767" y2="-2.767" width="0.2032" layer="21"/>
+<wire x1="-2.64" y1="2.64" x2="-2.64" y2="-2.64" width="0.1524" layer="51"/>
+<wire x1="2.64" y1="-2.64" x2="2.64" y2="2.64" width="0.1524" layer="51"/>
+<wire x1="-2.44" y1="2.767" x2="-2.767" y2="2.767" width="0.2032" layer="21"/>
+<wire x1="2.767" y1="2.767" x2="2.44" y2="2.767" width="0.2032" layer="21"/>
+<wire x1="2.44" y1="-2.767" x2="2.767" y2="-2.767" width="0.2032" layer="21"/>
+<wire x1="-2.767" y1="-2.767" x2="-2.44" y2="-2.767" width="0.2032" layer="21"/>
+<rectangle x1="-2.0828" y1="-3.95" x2="-1.7272" y2="-2.64" layer="51"/>
+<rectangle x1="-0.8128" y1="-3.95" x2="-0.4572" y2="-2.64" layer="51"/>
+<rectangle x1="0.4572" y1="-3.95" x2="0.8128" y2="-2.64" layer="51"/>
+<rectangle x1="1.7272" y1="-3.95" x2="2.0828" y2="-2.64" layer="51"/>
+<rectangle x1="1.7272" y1="2.64" x2="2.0828" y2="3.95" layer="51" rot="R180"/>
+<rectangle x1="0.4572" y1="2.64" x2="0.8128" y2="3.95" layer="51" rot="R180"/>
+<rectangle x1="-0.8128" y1="2.64" x2="-0.4572" y2="3.95" layer="51" rot="R180"/>
+<rectangle x1="-2.0828" y1="2.64" x2="-1.7272" y2="3.95" layer="51" rot="R180"/>
+<smd name="1" x="-1.905" y="-3.2512" dx="0.6096" dy="1.7018" layer="1"/>
+<smd name="2" x="-0.635" y="-3.2512" dx="0.6096" dy="1.7018" layer="1"/>
+<smd name="3" x="0.635" y="-3.2512" dx="0.6096" dy="1.7018" layer="1"/>
+<smd name="4" x="1.905" y="-3.2512" dx="0.6096" dy="1.7018" layer="1"/>
+<smd name="5" x="1.905" y="3.2512" dx="0.6096" dy="1.7018" layer="1"/>
+<smd name="6" x="0.635" y="3.2512" dx="0.6096" dy="1.7018" layer="1"/>
+<smd name="7" x="-0.635" y="3.2512" dx="0.6096" dy="1.7018" layer="1"/>
+<smd name="8" x="-1.905" y="3.2512" dx="0.6096" dy="1.7018" layer="1"/>
+<text x="-2.9845" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="2.9845" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="bottom-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="WSON8-6X5MM" urn="urn:adsk.eagle:package:38841/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="WSON8-6X5MM"/>
+</packageinstances>
+</package3d>
+<package3d name="SOIC-8" urn="urn:adsk.eagle:package:38843/1" type="box" library_version="1">
+<description>8-Pin SOIC 208-mil</description>
+<packageinstances>
+<packageinstance name="SOIC-8"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="W25Q32FV" urn="urn:adsk.eagle:symbol:38836/1" library_version="1">
+<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="5.08" x2="12.7" y2="5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<pin name="!CS!" x="-15.24" y="2.54" length="short"/>
+<pin name="!HOLD!(D3)" x="15.24" y="0" length="short" rot="R180"/>
+<pin name="!WP!(D2)" x="-15.24" y="-2.54" length="short"/>
+<pin name="GND" x="-15.24" y="-5.08" length="short"/>
+<pin name="SCK" x="15.24" y="-2.54" length="short" rot="R180"/>
+<pin name="SI(D0)" x="15.24" y="-5.08" length="short" rot="R180"/>
+<pin name="SO(D1)" x="-15.24" y="0" length="short"/>
+<pin name="VCC" x="15.24" y="2.54" length="short" rot="R180"/>
+<text x="-12.7" y="5.334" size="1.778" layer="95">&gt;Name</text>
+<text x="-12.7" y="-7.874" size="1.778" layer="96" align="top-left">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="W25Q32FV" urn="urn:adsk.eagle:component:38847/1" prefix="U" library_version="1">
+<description>&lt;h3&gt;W25Q32FV 32Mb (4MB) Serial Flash Memory&lt;/h3&gt;
+&lt;p&gt;The W25Q32FV support the standard Serial Peripheral Interface (SPI), Dual/Quad I/O SPI as  well as 2-clocks instruction cycle Quad Peripheral Interface (QPI).&lt;/p&gt;
+&lt;p&gt;104MHz, SPI, 8-SOIC-EIAJ&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.winbond.com/resource-files/w25q32fv%20revh%20091613.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;SparkFun Products&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13794"&gt;SparkFun Blynk Board - ESP8266&lt;/a&gt; (WRL-13794)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="W25Q32FV" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ZP" package="WSON8-6X5MM">
+<connects>
+<connect gate="G$1" pin="!CS!" pad="1"/>
+<connect gate="G$1" pin="!HOLD!(D3)" pad="7"/>
+<connect gate="G$1" pin="!WP!(D2)" pad="3"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="SCK" pad="6"/>
+<connect gate="G$1" pin="SI(D0)" pad="5"/>
+<connect gate="G$1" pin="SO(D1)" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38841/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="NA-XXXXX" constant="no"/>
+<attribute name="VALUE" value="W25Q32FV" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SS" package="SOIC-8">
+<connects>
+<connect gate="G$1" pin="!CS!" pad="1"/>
+<connect gate="G$1" pin="!HOLD!(D3)" pad="7"/>
+<connect gate="G$1" pin="!WP!(D2)" pad="3"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="SCK" pad="6"/>
+<connect gate="G$1" pin="SI(D0)" pad="5"/>
+<connect gate="G$1" pin="SO(D1)" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38843/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-13229"/>
+<attribute name="VALUE" value="W25Q32FV" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11188,8 +11681,8 @@ ARM 32-BIT 72Hz 64KB MCU</description>
 <part name="R8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:6240630/1"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U1" library="Testing" deviceset="MPU-6050" device="-1"/>
-<part name="C3" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="1nF"/>
-<part name="C4" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="1nF"/>
+<part name="C3" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="1uF"/>
+<part name="C4" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="10uF"/>
 <part name="VDD3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device="" value="3.3V"/>
 <part name="C5" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="0.1uF"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -11204,6 +11697,23 @@ ARM 32-BIT 72Hz 64KB MCU</description>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2-REDUNDANT" package3d_urn="urn:adsk.eagle:package:40167/1"/>
 <part name="U$1" library="STM32F103C8T7" deviceset="STM32F103C8T7" device=""/>
+<part name="VDD2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device="" value="3.3V"/>
+<part name="VDD6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device="" value="3.3V"/>
+<part name="VDD7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device="" value="3.3V"/>
+<part name="VDD8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device="" value="3.3V"/>
+<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:6240630/1" value="55ohm"/>
+<part name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:6240630/1" value="1ohm"/>
+<part name="R3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:6240630/1" value="1ohm"/>
+<part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-RGB-CA" device="CLEAR" package3d_urn="urn:adsk.eagle:package:39368/1" value="CLEAR"/>
+<part name="VDD9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device="" value="3.3V"/>
+<part name="U2" library="SparkFun-IC-Memory" library_urn="urn:adsk.eagle:library:524" deviceset="W25Q32FV" device="SS" package3d_urn="urn:adsk.eagle:package:38843/1" value="W25Q32FV"/>
+<part name="VDD10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device="" value="3.3V"/>
+<part name="R4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:6240630/1" value="10M"/>
+<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11311,6 +11821,63 @@ ARM 32-BIT 72Hz 64KB MCU</description>
 <attribute name="NAME" x="132.08" y="133.604" size="1.778" layer="95" font="vector" align="bottom-center"/>
 </instance>
 <instance part="U$1" gate="G$1" x="271.78" y="114.3" smashed="yes"/>
+<instance part="VDD2" gate="G$1" x="236.22" y="124.46" smashed="yes" rot="R90">
+<attribute name="VALUE" x="238.76" y="121.92" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="VDD6" gate="G$1" x="294.64" y="111.76" smashed="yes" rot="R270">
+<attribute name="VALUE" x="294.64" y="109.22" size="1.778" layer="96"/>
+</instance>
+<instance part="VDD7" gate="G$1" x="294.64" y="86.36" smashed="yes" rot="R270">
+<attribute name="VALUE" x="294.64" y="83.82" size="1.778" layer="96"/>
+</instance>
+<instance part="VDD8" gate="G$1" x="236.22" y="86.36" smashed="yes" rot="R90">
+<attribute name="VALUE" x="238.76" y="83.82" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND2" gate="1" x="236.22" y="127" smashed="yes" rot="R270">
+<attribute name="VALUE" x="233.68" y="129.54" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND3" gate="1" x="297.18" y="88.9" smashed="yes" rot="R90">
+<attribute name="VALUE" x="299.72" y="86.36" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND4" gate="1" x="297.18" y="114.3" smashed="yes" rot="R90">
+<attribute name="VALUE" x="299.72" y="111.76" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND9" gate="1" x="236.22" y="88.9" smashed="yes" rot="R270">
+<attribute name="VALUE" x="233.68" y="91.44" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R1" gate="G$1" x="124.46" y="68.58" smashed="yes">
+<attribute name="NAME" x="120.65" y="70.0786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="120.65" y="65.278" size="1.778" layer="96"/>
+</instance>
+<instance part="R2" gate="G$1" x="124.46" y="60.96" smashed="yes">
+<attribute name="NAME" x="120.65" y="62.4586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="120.65" y="57.658" size="1.778" layer="96"/>
+</instance>
+<instance part="R3" gate="G$1" x="124.46" y="53.34" smashed="yes">
+<attribute name="NAME" x="120.65" y="54.8386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="120.65" y="50.038" size="1.778" layer="96"/>
+</instance>
+<instance part="D1" gate="G$1" x="147.32" y="60.96" smashed="yes">
+<attribute name="NAME" x="139.7" y="66.3575" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="139.7" y="55.5625" size="1.778" layer="95" font="vector" align="top-left"/>
+</instance>
+<instance part="VDD9" gate="G$1" x="172.72" y="60.96" smashed="yes" rot="R270">
+<attribute name="VALUE" x="170.18" y="63.5" size="1.778" layer="96"/>
+</instance>
+<instance part="U2" gate="G$1" x="264.16" y="60.96" smashed="yes">
+<attribute name="NAME" x="251.46" y="66.294" size="1.778" layer="95"/>
+<attribute name="VALUE" x="251.46" y="53.086" size="1.778" layer="96" align="top-left"/>
+</instance>
+<instance part="VDD10" gate="G$1" x="299.72" y="63.5" smashed="yes" rot="R270">
+<attribute name="VALUE" x="297.18" y="66.04" size="1.778" layer="96"/>
+</instance>
+<instance part="R4" gate="G$1" x="287.02" y="60.96" smashed="yes">
+<attribute name="NAME" x="283.21" y="62.4586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="288.29" y="62.738" size="1.778" layer="96"/>
+</instance>
+<instance part="GND12" gate="1" x="233.68" y="55.88" smashed="yes" rot="R270">
+<attribute name="VALUE" x="231.14" y="58.42" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11346,6 +11913,41 @@ ARM 32-BIT 72Hz 64KB MCU</description>
 <pinref part="VDD1" gate="G$1" pin="VDD"/>
 <wire x1="195.58" y1="124.46" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
 <junction x="195.58" y="121.92"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VDDA"/>
+<wire x1="246.38" y1="124.46" x2="238.76" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="VDD2" gate="G$1" pin="VDD"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VDD_2"/>
+<wire x1="281.94" y1="111.76" x2="292.1" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="VDD6" gate="G$1" pin="VDD"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VDD_3"/>
+<wire x1="281.94" y1="86.36" x2="292.1" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="VDD7" gate="G$1" pin="VDD"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VDD_1"/>
+<wire x1="246.38" y1="86.36" x2="238.76" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="VDD8" gate="G$1" pin="VDD"/>
+</segment>
+<segment>
+<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="VDD9" gate="G$1" pin="VDD"/>
+<wire x1="160.02" y1="60.96" x2="170.18" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="VCC"/>
+<wire x1="279.4" y1="63.5" x2="294.64" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="VDD10" gate="G$1" pin="VDD"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="294.64" y1="63.5" x2="297.18" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="60.96" x2="294.64" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="60.96" x2="294.64" y2="63.5" width="0.1524" layer="91"/>
+<junction x="294.64" y="63.5"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -11406,6 +12008,31 @@ ARM 32-BIT 72Hz 64KB MCU</description>
 <pinref part="J1" gate="G$1" pin="2"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="139.7" y1="127" x2="129.54" y2="127" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VSSA"/>
+<wire x1="246.38" y1="127" x2="238.76" y2="127" width="0.1524" layer="91"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VSS_3"/>
+<wire x1="281.94" y1="88.9" x2="294.64" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VSS_2"/>
+<wire x1="281.94" y1="114.3" x2="294.64" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="GND4" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VSS_1"/>
+<wire x1="246.38" y1="88.9" x2="238.76" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="GND9" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="GND"/>
+<wire x1="248.92" y1="55.88" x2="236.22" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -11475,6 +12102,11 @@ ARM 32-BIT 72Hz 64KB MCU</description>
 <junction x="121.92" y="93.98"/>
 <label x="124.46" y="93.98" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB12"/>
+<wire x1="281.94" y1="144.78" x2="294.64" y2="144.78" width="0.1524" layer="91"/>
+<label x="284.48" y="144.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$12" class="0">
 <segment>
@@ -11511,6 +12143,11 @@ ARM 32-BIT 72Hz 64KB MCU</description>
 <wire x1="210.82" y1="106.68" x2="220.98" y2="106.68" width="0.1524" layer="91"/>
 <label x="215.9" y="106.68" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB11"/>
+<wire x1="246.38" y1="91.44" x2="233.68" y2="91.44" width="0.1524" layer="91"/>
+<label x="233.68" y="91.44" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SCL" class="0">
 <segment>
@@ -11531,6 +12168,11 @@ ARM 32-BIT 72Hz 64KB MCU</description>
 <wire x1="210.82" y1="109.22" x2="220.98" y2="109.22" width="0.1524" layer="91"/>
 <label x="215.9" y="109.22" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB10"/>
+<wire x1="246.38" y1="93.98" x2="233.68" y2="93.98" width="0.1524" layer="91"/>
+<label x="233.68" y="93.98" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$15" class="0">
 <segment>
@@ -11545,6 +12187,120 @@ ARM 32-BIT 72Hz 64KB MCU</description>
 <pinref part="S1" gate="G$1" pin="1"/>
 <wire x1="127" y1="132.08" x2="124.46" y2="132.08" width="0.1524" layer="91"/>
 <label x="121.92" y="132.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<wire x1="137.16" y1="63.5" x2="137.16" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="68.58" x2="129.54" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="D1" gate="G$1" pin="RED"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<wire x1="137.16" y1="58.42" x2="137.16" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="53.34" x2="129.54" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="D1" gate="G$1" pin="GRN"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<wire x1="137.16" y1="60.96" x2="129.54" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="D1" gate="G$1" pin="BLU"/>
+</segment>
+</net>
+<net name="LEDRED" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="68.58" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
+<label x="106.68" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB0"/>
+<wire x1="246.38" y1="101.6" x2="233.68" y2="101.6" width="0.1524" layer="91"/>
+<label x="233.68" y="101.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LEDBLU" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="60.96" x2="106.68" y2="60.96" width="0.1524" layer="91"/>
+<label x="106.68" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB2"/>
+<wire x1="246.38" y1="96.52" x2="233.68" y2="96.52" width="0.1524" layer="91"/>
+<label x="233.68" y="96.52" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LEDGRN" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="53.34" x2="106.68" y2="53.34" width="0.1524" layer="91"/>
+<label x="106.68" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB1"/>
+<wire x1="246.38" y1="99.06" x2="233.68" y2="99.06" width="0.1524" layer="91"/>
+<label x="233.68" y="99.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="MOSI" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PA7"/>
+<wire x1="246.38" y1="104.14" x2="233.68" y2="104.14" width="0.1524" layer="91"/>
+<label x="233.68" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="SI(D0)"/>
+<wire x1="279.4" y1="55.88" x2="294.64" y2="55.88" width="0.1524" layer="91"/>
+<label x="287.02" y="55.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="MISO" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PA6"/>
+<wire x1="246.38" y1="106.68" x2="233.68" y2="106.68" width="0.1524" layer="91"/>
+<label x="233.68" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="SO(D1)"/>
+<wire x1="248.92" y1="60.96" x2="236.22" y2="60.96" width="0.1524" layer="91"/>
+<label x="236.22" y="60.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SCK" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PA5"/>
+<wire x1="246.38" y1="109.22" x2="233.68" y2="109.22" width="0.1524" layer="91"/>
+<label x="233.68" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="SCK"/>
+<wire x1="279.4" y1="58.42" x2="294.64" y2="58.42" width="0.1524" layer="91"/>
+<label x="287.02" y="58.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="MEM-CS" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="!CS!"/>
+<wire x1="248.92" y1="63.5" x2="236.22" y2="63.5" width="0.1524" layer="91"/>
+<label x="236.22" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PA4"/>
+<wire x1="246.38" y1="111.76" x2="233.68" y2="111.76" width="0.1524" layer="91"/>
+<label x="233.68" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="!HOLD!(D3)"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="279.4" y1="60.96" x2="281.94" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
