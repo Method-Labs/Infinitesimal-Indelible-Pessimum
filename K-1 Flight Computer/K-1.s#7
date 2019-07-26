@@ -11547,6 +11547,11 @@ ARM 32-BIT 72Hz 64KB MCU</description>
 <junction x="121.92" y="93.98"/>
 <label x="124.46" y="93.98" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB12"/>
+<wire x1="281.94" y1="144.78" x2="294.64" y2="144.78" width="0.1524" layer="91"/>
+<label x="284.48" y="144.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$12" class="0">
 <segment>
