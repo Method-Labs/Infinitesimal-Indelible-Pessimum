@@ -148,7 +148,7 @@
 <wire x1="108.89" y1="0" x2="108.89" y2="80" width="0" layer="20"/>
 <wire x1="108.89" y1="80" x2="0" y2="80" width="0" layer="20"/>
 <wire x1="0" y1="80" x2="0" y2="0" width="0" layer="20"/>
-<text x="107.188" y="68.199" size="1.778" layer="22" rot="MR0">HEP Aerospace
+<text x="33.401" y="71.247" size="1.778" layer="22" rot="MR0">HEP Aerospace
 Control Panel Computer v0.1
 Internal Development Board</text>
 </plain>
